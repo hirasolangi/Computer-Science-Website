@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+header {
+    background: #002366; 
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+#logo {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #0057b8; 
+    padding: 0;
+}
+nav ul li {
+    padding: 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+nav ul li input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#about {
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+#more-content {
+    display: none;
+    margin-top: 15px;
+}
+#read-more {
+    background: #0057b8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#read-more:hover {
+    background: #003e7e;
+}
+#history, #mission {
+    text-align: center;
+    margin: 30px auto;
+    width: 80%;
+    padding: 15px;
+    background: white;
+    border-left: 5px solid #0057b8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #002366;
+    color: white;
+}
